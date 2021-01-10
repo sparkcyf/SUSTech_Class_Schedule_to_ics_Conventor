@@ -1,0 +1,47 @@
+name: tis-to-ics
+channels:
+  - defaults
+dependencies:
+  - blas=1.0=mkl
+  - brotlipy=0.7.0=py38h9ed2024_1003
+  - ca-certificates=2020.12.8=hecd8cb5_0
+  - certifi=2020.12.5=py38hecd8cb5_0
+  - cffi=1.14.4=py38h2125817_0
+  - chardet=4.0.0=py38hecd8cb5_1003
+  - cryptography=3.3.1=py38hbcfaee0_0
+  - idna=2.10=py_0
+  - intel-openmp=2019.4=233
+  - libcxx=10.0.0=1
+  - libedit=3.1.20191231=h1de35cc_1
+  - libffi=3.3=hb1e8313_2
+  - mkl=2019.4=233
+  - mkl-service=2.3.0=py38h9ed2024_0
+  - mkl_fft=1.2.0=py38hc64f4ea_0
+  - mkl_random=1.1.1=py38h959d312_0
+  - ncurses=6.2=h0a44026_1
+  - numpy=1.19.2=py38h456fd55_0
+  - numpy-base=1.19.2=py38hcfb5961_0
+  - openssl=1.1.1i=h9ed2024_0
+  - pandas=1.2.0=py38hb2f4e1b_0
+  - pip=20.3.3=py38hecd8cb5_0
+  - pycparser=2.20=py_2
+  - pyopenssl=20.0.1=pyhd3eb1b0_1
+  - pysocks=1.7.1=py38_1
+  - python=3.8.5=h26836e1_1
+  - python-dateutil=2.8.1=py_0
+  - pytz=2020.5=pyhd3eb1b0_0
+  - readline=8.0=h1de35cc_0
+  - requests=2.25.1=pyhd3eb1b0_0
+  - setuptools=51.0.0=py38hecd8cb5_2
+  - six=1.15.0=py38hecd8cb5_0
+  - sqlite=3.33.0=hffcf06c_0
+  - tk=8.6.10=hb0a8c7a_0
+  - urllib3=1.26.2=pyhd3eb1b0_0
+  - wheel=0.36.2=pyhd3eb1b0_0
+  - xz=5.2.5=h1de35cc_0
+  - zlib=1.2.11=h1de35cc_3
+  - pip:
+    - arrow==0.14.7
+    - icalendar==4.0.7
+    - ics==0.7
+    - tatsu==5.5.0
