@@ -8,7 +8,7 @@ Intent to convert the timetable on the SUSTech tis system to ics format.
 
 ### 获取课程表json
 
-登陆tis系统（https://tis.sustech.edu.cn/）后，进入选课页面，打开开发者工具（`F12`）的“Network”标签页，点击“查看课表”，观察下方窗口中出现的`queryXskbcxList`项目，将该请求另存为json文件并重命名为`data.json`。
+登陆tis系统（[https://tis.sustech.edu.cn/](https://tis.sustech.edu.cn/)）后，进入选课页面，打开开发者工具（`F12`）的“Network”标签页，点击“查看课表”，观察下方窗口中出现的`queryXskbcxList`项目，将该请求另存为json文件并重命名为`data.json`。
 
 以下是使用curl将其存储为json的一个例子。
 
