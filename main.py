@@ -100,7 +100,7 @@ for course in course_list:
 
 
 #dump ics
-f = open('124.ics', 'wb')
+f = open('schedule.ics', 'wb')
 f.write(cal.to_ical())
 f.close()
 
