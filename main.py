@@ -16,7 +16,7 @@ course_timetable = pd.read_csv('course_time.csv')
 
 #get course_table json
 
-with open('data.json') as data:
+with open('data.json',encoding='utf-8') as f:
     course_list = json.load(data)
 
 
