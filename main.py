@@ -1,4 +1,3 @@
-# This is a sample Python script.
 import json
 import icalendar
 import pytz
@@ -6,18 +5,17 @@ from icalendar import Calendar, Event, vCalAddress, vText
 import datetime
 from datetime import datetime, timedelta
 import pandas as pd
-import requests
 
 
 
 #read arrangement csv
-week_arrangement = pd.read_csv('2020-2021-2.csv')
+week_arrangement = pd.read_csv('2022-2023-1.csv')
 course_timetable = pd.read_csv('course_time.csv')
 
 #get course_table json
 
 with open('data.json',encoding='utf-8') as f:
-    course_list = json.load(data)
+    course_list = json.load(f)
 
 
 #init calendar
@@ -49,9 +47,10 @@ for course in course_list:
 
     #split course name
     #print(course['kbxx'])
-    course_split1 = [x.strip() for x in course['kbxx'].split('\n')]
+    course_split1 = [x.strip() for x in course['SKSJ'].split('\n')]
+    print(course_split1)
     course_name = course_split1[0]
-    course_arrangement = course['key']
+    course_arrangement = course['KEY']
     # day of week
     course_day = course_arrangement.split("xq",1)[1][0]
     # no of day
